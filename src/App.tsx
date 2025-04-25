@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -41,6 +40,7 @@ const App = () => (
               <Route path="/store" element={<Store />} />
               <Route path="/partner" element={<Partner />} />
               <Route path="/style-guide" element={<StyleGuide />} />
+              <Route path="/join-group/:groupName" element={<JoinGroup />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

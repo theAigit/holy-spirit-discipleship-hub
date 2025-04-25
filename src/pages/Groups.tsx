@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Group } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Groups = () => {
   const groups = [
@@ -76,7 +77,14 @@ const Groups = () => {
               <p className="text-muted-foreground">{group.description}</p>
             </CardContent>
             <CardFooter>
-              <Button className="cta-button w-full">Join Group</Button>
+              <Button 
+                className="cta-button w-full"
+                asChild
+              >
+                <Link to={`/join-group/${encodeURIComponent(group.name)}`}>
+                  Join Group
+                </Link>
+              </Button>
             </CardFooter>
           </Card>
         ))}
