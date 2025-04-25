@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -17,6 +18,7 @@ import Library from "./pages/Library";
 import Store from "./pages/Store";
 import Partner from "./pages/Partner";
 import StyleGuide from "./pages/StyleGuide";
+import JoinGroup from "./pages/JoinGroup";
 
 const queryClient = new QueryClient();
 
