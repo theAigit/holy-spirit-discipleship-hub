@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -19,7 +20,13 @@ import Store from "./pages/Store";
 import Partner from "./pages/Partner";
 import StyleGuide from "./pages/StyleGuide";
 import JoinGroup from "./pages/JoinGroup";
-import AdminGroups from "./pages/AdminGroups";
+
+// Admin pages
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import AdminGroups from "./pages/admin/AdminGroups";
+import AdminLibrary from "./pages/admin/AdminLibrary";
+import AdminStore from "./pages/admin/AdminStore";
+import AdminMissions from "./pages/admin/AdminMissions";
 
 const queryClient = new QueryClient();
 
@@ -44,7 +51,14 @@ const App = () => (
               <Route path="/partner" element={<Partner />} />
               <Route path="/style-guide" element={<StyleGuide />} />
               <Route path="/join-group/:groupName" element={<JoinGroup />} />
+              
+              {/* Admin Routes */}
+              <Route path="/admin" element={<AdminDashboard />} />
               <Route path="/admin/groups" element={<AdminGroups />} />
+              <Route path="/admin/library" element={<AdminLibrary />} />
+              <Route path="/admin/store" element={<AdminStore />} />
+              <Route path="/admin/missions" element={<AdminMissions />} />
+              
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
