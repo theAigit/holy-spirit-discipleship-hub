@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -19,6 +19,7 @@ import Store from "./pages/Store";
 import Partner from "./pages/Partner";
 import StyleGuide from "./pages/StyleGuide";
 import JoinGroup from "./pages/JoinGroup";
+import AdminGroups from "./pages/AdminGroups";
 
 const queryClient = new QueryClient();
 
@@ -43,6 +44,7 @@ const App = () => (
               <Route path="/partner" element={<Partner />} />
               <Route path="/style-guide" element={<StyleGuide />} />
               <Route path="/join-group/:groupName" element={<JoinGroup />} />
+              <Route path="/admin/groups" element={<AdminGroups />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
