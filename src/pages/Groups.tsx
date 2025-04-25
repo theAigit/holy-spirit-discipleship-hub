@@ -10,19 +10,19 @@ const Groups = () => {
       name: "League of Disciplers",
       verse: "Matthew 16:24",
       description: "If you are already a Discipler, who had graduated from the GLDSH, click here to join your fellow comrades.",
-      image: "/lovable-uploads/7af1c166-b1e9-47a9-9531-6b76eeec472b.png"
+      image: "/lovable-uploads/a8326234-9a1b-4add-80fc-0ec371aff614.png"
     },
     {
       name: "Youths Aflame",
       verse: "Psalm 119:9",
       description: "Click here to join the disciples of youth group. How can a youth guide his way except he fears the Lord? Join our vibrant Youths Aflame for Christ.",
-      image: "/lovable-uploads/a0b2bd1e-ef70-49a6-8dae-95f91c3505f1.png"
+      image: "/lovable-uploads/618be9d6-6d12-4235-8655-2e4b8c3418b6.png"
     },
     {
       name: "Watchmen Intercessors",
       verse: "Isaiah 62:1",
       description: "Click here to join our intercessors team in prayers for nations, disciples, missions, and the body of Christ.",
-      image: "/lovable-uploads/a8326234-9a1b-4add-80fc-0ec371aff614.png"
+      image: "/lovable-uploads/4dd569e9-c5fa-430c-892e-fc4cdf36ddb0.png"
     },
     {
       name: "The Kingsmen Forum",
@@ -40,13 +40,13 @@ const Groups = () => {
       name: "Let the Children Come to Me",
       verse: "Matthew 19:14",
       description: "Click here to enjoy Christ Jesus fellowship in the eyes of children in an exciting environment.",
-      image: "/lovable-uploads/4dd569e9-c5fa-430c-892e-fc4cdf36ddb0.png"
+      image: "/lovable-uploads/a0b2bd1e-ef70-49a6-8dae-95f91c3505f1.png"
     },
     {
       name: "Book Reviews / Content Study",
       verse: "2 Timothy 2:15",
       description: "Click here to join our book reviews and study. This will aid your study life and unfailing new spiritual development.",
-      image: "/lovable-uploads/0bfbd24b-8400-41bd-9c33-5276554f245e.png"
+      image: "/lovable-uploads/7af1c166-b1e9-47a9-9531-6b76eeec472b.png"
     }
   ];
 
