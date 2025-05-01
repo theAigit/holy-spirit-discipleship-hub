@@ -8,25 +8,25 @@ const AdminDashboard = () => {
   const adminModules = [
     {
       title: "Groups",
-      icon: <Users className="h-8 w-8 text-blue-500" />,
+      icon: <Users className="h-8 w-8 text-skyblue" />,
       description: "Manage discipleship groups - add, edit or delete groups",
       link: "/admin/groups"
     },
     {
       title: "Library",
-      icon: <Book className="h-8 w-8 text-amber-500" />,
+      icon: <Book className="h-8 w-8 text-skyblue" />,
       description: "Manage e-library resources and materials",
       link: "/admin/library"
     },
     {
       title: "Store",
-      icon: <Store className="h-8 w-8 text-green-500" />,
+      icon: <Store className="h-8 w-8 text-skyblue" />,
       description: "Manage store products, pricing and availability",
       link: "/admin/store"
     },
     {
       title: "Missions",
-      icon: <FileText className="h-8 w-8 text-red-500" />,
+      icon: <FileText className="h-8 w-8 text-skyblue" />,
       description: "Manage mission updates and content",
       link: "/admin/missions"
     }

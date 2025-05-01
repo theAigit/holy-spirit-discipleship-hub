@@ -17,10 +17,10 @@ interface AdminLayoutProps {
 const AdminLayout: React.FC<AdminLayoutProps> = ({ children, title }) => {
   const navItems = [
     { name: "Dashboard", path: "/admin", icon: null },
-    { name: "Groups", path: "/admin/groups", icon: <Users className="h-4 w-4" /> },
-    { name: "Library", path: "/admin/library", icon: <Book className="h-4 w-4" /> },
-    { name: "Store", path: "/admin/store", icon: <Store className="h-4 w-4" /> },
-    { name: "Missions", path: "/admin/missions", icon: <FileText className="h-4 w-4" /> },
+    { name: "Groups", path: "/admin/groups", icon: <Users className="h-4 w-4 text-skyblue" /> },
+    { name: "Library", path: "/admin/library", icon: <Book className="h-4 w-4 text-skyblue" /> },
+    { name: "Store", path: "/admin/store", icon: <Store className="h-4 w-4 text-skyblue" /> },
+    { name: "Missions", path: "/admin/missions", icon: <FileText className="h-4 w-4 text-skyblue" /> },
   ];
 
   return (
