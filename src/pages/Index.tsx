@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { BookOpen, Users, Calendar, MapPin, Library, Store } from "lucide-react";
 
 const Index = () => {
-  // Hero section background image (placeholder)
-  const heroBackground = "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80";
+  // Hero section background image (uploaded image)
+  const heroBackground = "/lovable-uploads/96ee73f8-d5a1-4805-98db-ee920c68edb5.png";
 
   return (
     <div>
