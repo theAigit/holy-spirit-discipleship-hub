@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Group } from "lucide-react";
@@ -52,7 +53,7 @@ const Groups = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="flex items-center justify-center gap-2 mb-8">
-        <Group className="h-6 w-6 text-gold" />
+        <Group className="h-6 w-6 text-skyblue" />
         <h1 className="text-3xl md:text-4xl font-bold text-center font-playfair">
           Discipleship Groups
         </h1>
@@ -70,7 +71,7 @@ const Groups = () => {
             </div>
             <CardHeader>
               <CardTitle className="font-playfair">{group.name}</CardTitle>
-              <div className="text-sm text-gold font-medium">{group.verse}</div>
+              <div className="text-sm text-skyblue font-medium">{group.verse}</div>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">{group.description}</p>

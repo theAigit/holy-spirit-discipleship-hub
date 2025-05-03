@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -114,7 +115,7 @@ const AdminGroups = () => {
               value={selectedGroup?.image || ''} 
               onChange={(e) => setSelectedGroup(prev => prev ? {...prev, image: e.target.value} : null)}
             />
-            <Button type="submit">
+            <Button type="submit" className="cta-button">
               {selectedGroup ? 'Update Group' : 'Create Group'}
             </Button>
           </form>
@@ -138,6 +139,7 @@ const AdminGroups = () => {
                         variant="outline" 
                         size="icon" 
                         onClick={() => handleEdit(group)}
+                        className="text-skyblue hover:text-skyblue/80 hover:bg-skyblue/10"
                       >
                         <Edit className="h-4 w-4" />
                       </Button>
