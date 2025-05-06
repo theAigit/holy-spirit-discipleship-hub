@@ -86,10 +86,10 @@
   }
 
   .cta-button {
-    @apply bg-skyblue hover:bg-skyblue/90 text-white px-6 py-3 rounded-md transition-colors duration-200 font-medium;
+    @apply bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md transition-colors duration-200 font-medium;
   }
   
   .link-button {
-    @apply text-skyblue hover:text-skyblue/80 font-medium transition-colors duration-200;
+    @apply text-blue-500 hover:text-blue-600 font-medium transition-colors duration-200;
   }
 }

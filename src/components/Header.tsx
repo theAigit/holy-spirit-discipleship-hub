@@ -79,7 +79,7 @@ const NavLinks = ({ mobile, onClick }: NavLinksProps) => {
           className={`${
             mobile
               ? "block py-2 border-b border-gray-100"
-              : "hover:text-gold transition-colors"
+              : "hover:text-blue-500 transition-colors"
           } font-medium`}
           onClick={onClick}
         >

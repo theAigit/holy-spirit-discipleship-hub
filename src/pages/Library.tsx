@@ -64,7 +64,7 @@ const Library = () => {
             <Card key={index} className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="font-playfair">{resource.title}</CardTitle>
-                <div className="text-sm text-skyblue font-medium">{resource.type}</div>
+                <div className="text-sm text-blue-500 font-medium">{resource.type}</div>
               </CardHeader>
               <CardContent>
                 <p>{resource.description}</p>

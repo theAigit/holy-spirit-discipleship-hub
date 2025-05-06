@@ -45,7 +45,7 @@ const Index = () => {
             understanding of intimacy with the Holy Spirit on a one-on-one basis.
           </p>
           <Link to="/about">
-            <Button className="link-button">About Our Ministry</Button>
+            <Button className="cta-button">About Our Ministry</Button>
           </Link>
         </div>
       </section>
@@ -56,40 +56,40 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Section 1 */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center">
-              <BookOpen className="mx-auto h-12 w-12 text-gold mb-4" />
+              <BookOpen className="mx-auto h-12 w-12 text-blue-500 mb-4" />
               <h3 className="text-xl font-bold mb-3 font-playfair">Discipleship by Revelation</h3>
               <p className="mb-6">
                 Enhance personal communication with the Lord Jesus Christ and understand 
                 the use of spiritual power and authority.
               </p>
               <Link to="/about">
-                <Button className="link-button">Learn More</Button>
+                <Button className="cta-button">Learn More</Button>
               </Link>
             </div>
 
             {/* Section 2 */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center">
-              <Users className="mx-auto h-12 w-12 text-gold mb-4" />
+              <Users className="mx-auto h-12 w-12 text-blue-500 mb-4" />
               <h3 className="text-xl font-bold mb-3 font-playfair">Join Our Community</h3>
               <p className="mb-6">
                 Connect with fellow disciples and grow together in your spiritual journey 
                 through our various groups and classes.
               </p>
               <Link to="/groups">
-                <Button className="link-button">Explore Groups</Button>
+                <Button className="cta-button">Explore Groups</Button>
               </Link>
             </div>
 
             {/* Section 3 */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center">
-              <MapPin className="mx-auto h-12 w-12 text-gold mb-4" />
+              <MapPin className="mx-auto h-12 w-12 text-blue-500 mb-4" />
               <h3 className="text-xl font-bold mb-3 font-playfair">Global Missions</h3>
               <p className="mb-6">
                 Join the Chariot of Philip and participate in bringing the gospel to all 
                 nations as commanded by our Lord Jesus Christ.
               </p>
               <Link to="/missions">
-                <Button className="link-button">Mission Updates</Button>
+                <Button className="cta-button">Mission Updates</Button>
               </Link>
             </div>
           </div>
@@ -103,7 +103,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Link to="/events" className="hover:transform hover:scale-105 transition-transform">
               <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <Calendar className="mx-auto h-10 w-10 text-skyblue mb-4" />
+                <Calendar className="mx-auto h-10 w-10 text-blue-500 mb-4" />
                 <h3 className="text-xl font-bold mb-2">Events & Programs</h3>
                 <p>Retreats, outreach, training and special conferences.</p>
               </div>
@@ -111,7 +111,7 @@ const Index = () => {
             
             <Link to="/library" className="hover:transform hover:scale-105 transition-transform">
               <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <Library className="mx-auto h-10 w-10 text-skyblue mb-4" />
+                <Library className="mx-auto h-10 w-10 text-blue-500 mb-4" />
                 <h3 className="text-xl font-bold mb-2">E-Library</h3>
                 <p>Access spiritual materials to guide your walk with Christ.</p>
               </div>
@@ -119,7 +119,7 @@ const Index = () => {
             
             <Link to="/store" className="hover:transform hover:scale-105 transition-transform">
               <div className="bg-white p-6 rounded-lg shadow-md text-center">
-                <Store className="mx-auto h-10 w-10 text-skyblue mb-4" />
+                <Store className="mx-auto h-10 w-10 text-blue-500 mb-4" />
                 <h3 className="text-xl font-bold mb-2">Online Store</h3>
                 <p>Books and resources to equip your discipleship journey.</p>
               </div>
